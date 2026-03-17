@@ -1,0 +1,14 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Project One",
+      "link": "https://example.com/project-1"
+    },
+    {
+      "id": "project-2",
+      "title": "Project Two",
+      "link": "https://example.com/project-2"
+    }
+  ]
+}

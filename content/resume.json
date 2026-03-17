@@ -1,0 +1,22 @@
+{
+  "sections": [
+    {
+      "title": "Experience",
+      "type": "list",
+      "items": []
+    },
+    {
+      "title": "Education",
+      "type": "list",
+      "items": []
+    },
+    {
+      "title": "Skills",
+      "type": "list",
+      "items": [
+        {"title": "VFX & Compositing", "details": ["After Effects", "Nuke", "Premiere Pro"]},
+        {"title": "3D Motion Graphics", "details": ["Cinema 4D", "Blender"]}
+      ]
+    }
+  ]
+}
