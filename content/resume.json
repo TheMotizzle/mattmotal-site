@@ -1,22 +1,132 @@
 {
-  "sections": [
+  "about": [
+    "I’m a senior VFX veteran with nearly 20 years of experience at best-in class shops. My specialties include leading projects, high end compositing, direct client sessions, on set supervision, and finishing. My projects are consistently organized and run efficiently to maximize cost savings.",
+    "I take pride in building teams. I’ve mentored and trained Flame artists from the ground up, creating homegrown powerhouses.",
+    "Lastly, I bring a level of personality. Clients have fun in my sessions. We joke and laugh and remember why we got into this industry. The result: maximum client satisfaction and repeat business."
+  ],
+  "experience": [
     {
-      "title": "Experience",
-      "type": "list",
-      "items": []
+      "company": "Mr Wolf",
+      "role": "Creative Director | Head of Commercial VFX (staff)",
+      "period": "Aug 2021 – current",
+      "companyUrl": "https://mrwolf.com/"
     },
     {
-      "title": "Education",
-      "type": "list",
-      "items": []
+      "company": "Harbor Picture Company",
+      "role": "Head of Commercial VFX L.A. (staff)",
+      "period": "July 2020 – July 2021 (1 year)",
+      "companyUrl": "https://harborpicturecompany.com/"
     },
     {
-      "title": "Skills",
-      "type": "list",
-      "items": [
-        {"title": "VFX & Compositing", "details": ["After Effects", "Nuke", "Premiere Pro"]},
-        {"title": "3D Motion Graphics", "details": ["Cinema 4D", "Blender"]}
-      ]
+      "company": "ArsenalCreative",
+      "role": "Flame Lead | Senior Flame Artist (staff)",
+      "period": "Jan 2013 – June 2020 (7 years)",
+      "companyUrl": "https://arsenalcreative.com/"
+    },
+    {
+      "company": "Mirada Studios",
+      "role": "Senior Flame Artist (staff)",
+      "period": "2005 – 2012 (8 years)",
+      "companyUrl": "http://mirada.com/"
+    },
+    {
+      "company": "1.1 VFX",
+      "role": "Flame Artist (staff)",
+      "period": "2006 – 2011 (6 years)",
+      "companyUrl": "http://mrwolf.com/",
+      "note": "(now Mr Wolf)"
+    },
+    {
+      "company": "Motion Theory",
+      "role": "Flame Artist / Shake Artist (staff)",
+      "period": "2005 – 2012 (8 years)",
+      "companyUrl": "https://en.wikipedia.org/wiki/Motion_Theory_(company)"
     }
-  ]
+  ],
+  "primarySkills": {
+    "heading": "Flame Compositing & Finishing | VFX Supervision",
+    "items": [
+      "Autodesk Flame (15+ years)",
+      "High end compositing (live action / cg)",
+      "Leading projects start to finish",
+      "Overseeing teams of artists (comp / cg / roto)",
+      "Direct client sessions",
+      "Finishing",
+      "On set VFX supervision",
+      "Bidding",
+      "Conform",
+      "Layoff",
+      "Matte painting",
+      "3D compositing"
+    ]
+  },
+  "secondarySkills": {
+    "heading": "Secondary Skills",
+    "groups": [
+      {
+        "title": "Tracking",
+        "items": [
+          "SynthEyes",
+          "Mocha Pro",
+          "Boujou"
+        ]
+      },
+      {
+        "title": "Compositing / Editing / Roto",
+        "items": [
+          "Shake, After Effects",
+          "Premiere, Final Cut Pro",
+          "Silhouette"
+        ]
+      },
+      {
+        "title": "AI",
+        "items": [
+          {
+            "label": "Stable Diffusion",
+            "subitems": [
+              "ComfyUI",
+              "Automatic1111"
+            ]
+          },
+          {
+            "label": "Topaz"
+          }
+        ]
+      },
+      {
+        "title": "Programming / Languages",
+        "items": [
+          "Python",
+          "Linux shell scripting (bash)",
+          "HTML, PHP, MySQL",
+          "Custom visual effects via programming",
+          "Interactive installations"
+        ]
+      },
+      {
+        "title": "Computer Hardware / Operating Systems",
+        "items": [
+          "Linux / MacOS / Windows",
+          "System administration",
+          "Building / networking / troubleshooting"
+        ]
+      },
+      {
+        "title": "Print / Web Design",
+        "items": [
+          "Photoshop, Illustrator, InDesign",
+          "WordPress, Dreamweaver"
+        ]
+      }
+    ]
+  },
+  "education": [
+    {
+      "school": "University of California, Los Angeles",
+      "degree": "BA, Design | Media Arts",
+      "period": "2000-2005"
+    }
+  ],
+  "manualReview": []
 }
