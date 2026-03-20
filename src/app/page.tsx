@@ -15,7 +15,7 @@ export default async function Home() {
           alt="Cinematic portrait background"
           fill
           priority
-          className="object-cover object-center scale-105"
+          className="object-cover object-[center_40%] scale-105"
           sizes="100vw"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/15 to-black/45" />
@@ -23,7 +23,7 @@ export default async function Home() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="relative z-10 text-center max-w-3xl"
+          className="relative z-10 text-center max-w-3xl translate-y-[-2vh] md:translate-y-[-4vh] lg:translate-y-[-5vh]"
         >
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-5">
             {content.hero.title}
@@ -42,7 +42,7 @@ export default async function Home() {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
-            className="text-3xl font-bold text-white mb-12 text-center"
+            className="text-3xl font-display font-bold tracking-tight text-white mb-12 text-center"
           >
             Demo Reel
           </AnimatedSection>
