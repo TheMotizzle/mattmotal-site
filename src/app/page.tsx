@@ -1,24 +1,34 @@
 import { AnimatedSection } from "@/components/motion/AnimatedSection";
 import { getHomeContent, getSiteConfig } from "@/lib/content";
+import Image from "next/image";
 
 export default async function Home() {
   const content = await getHomeContent();
   const config = await getSiteConfig();
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-black">
       {/* Hero Section */}
-      <section className="h-screen flex items-center justify-center px-6">
+      <section className="relative isolate min-h-[100svh] flex items-center justify-center px-6 overflow-hidden bg-black">
+        <Image
+          src="/main-bg.avif"
+          alt="Cinematic portrait background"
+          fill
+          priority
+          className="object-cover object-center scale-105"
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/15 to-black/45" />
         <AnimatedSection
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-center max-w-4xl"
+          className="relative z-10 text-center max-w-3xl"
         >
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
+          <h1 className="text-5xl md:text-7xl font-bold text-white mb-5">
             {content.hero.title}
           </h1>
-          <p className="text-xl md:text-2xl text-gray-400 mb-8">
+          <p className="text-lg md:text-2xl text-gray-200/90">
             {content.hero.subtitle}
           </p>
         </AnimatedSection>
