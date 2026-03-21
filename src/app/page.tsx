@@ -64,21 +64,6 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* Intro Section */}
-      <section className="py-20 px-6">
-        <div className="max-w-3xl mx-auto">
-          <AnimatedSection
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-            className="text-lg text-gray-300 leading-relaxed"
-          >
-            {content.intro.text}
-          </AnimatedSection>
-        </div>
-      </section>
-
       {/* Contact CTA */}
       <section className="py-20 px-6 bg-neutral-900/50">
         <AnimatedSection

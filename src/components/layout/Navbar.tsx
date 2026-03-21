@@ -26,6 +26,12 @@ export function Navbar() {
           >
             Resume
           </Link>
+          <a
+            href="mailto:themotizzle@gmail.com"
+            className="text-sm text-gray-400 hover:text-white transition-colors"
+          >
+            Email
+          </a>
         </div>
       </div>
     </nav>
