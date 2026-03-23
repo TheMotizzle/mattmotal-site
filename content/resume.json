@@ -1,6 +1,6 @@
 {
   "about": [
-    "I’m a senior VFX veteran with nearly 20 years of experience at best-in class shops. My specialties include leading projects, high end compositing, direct client sessions, on set supervision, and finishing. My projects are consistently organized and run efficiently to maximize cost savings.",
+    "I’m a senior VFX veteran with 20+ years of experience at best-in class shops. My specialties include leading projects, high end compositing, direct client sessions, on set supervision, and finishing. My projects are consistently organized and run efficiently to maximize cost savings.",
     "I take pride in building teams. I’ve mentored and trained Flame artists from the ground up, creating homegrown powerhouses.",
     "Lastly, I bring a level of personality. Clients have fun in my sessions. We joke and laugh and remember why we got into this industry. The result: maximum client satisfaction and repeat business."
   ],
@@ -38,7 +38,7 @@
     },
     {
       "company": "Motion Theory",
-      "role": "Flame Artist / Shake Artist (staff)",
+      "role": "Flame Artist | Shake Artist (staff)",
       "period": "2005 – 2012 (8 years)",
       "companyUrl": "https://en.wikipedia.org/wiki/Motion_Theory_(company)"
     }
@@ -47,9 +47,9 @@
     "heading": "Flame Compositing & Finishing | VFX Supervision",
     "items": [
       "Autodesk Flame (15+ years)",
-      "High end compositing (live action / cg)",
+      "High end compositing (live action | cg)",
       "Leading projects start to finish",
-      "Overseeing teams of artists (comp / cg / roto)",
+      "Overseeing teams of artists (comp | cg | roto)",
       "Direct client sessions",
       "Finishing",
       "On set VFX supervision",
@@ -64,6 +64,29 @@
     "heading": "Secondary Skills",
     "groups": [
       {
+        "title": "AI",
+        "items": [
+          {
+            "label": "ComfyUI",
+            "subitems": [
+              "image | video | audio creation | editing",
+              "LTX-2, Wan, Flux, Qwen, Z-Image, SDXL, SEEDVR2, Vibe Voice, etc",
+              "Configuring AI workstations via CLI in Linux"
+            ]
+          },
+          {
+            "label": "Topaz"
+          },
+          {
+            "label": "LLM | Coding",
+            "subitems": [
+              "llama.cpp, OpenCode",
+              "Configuring & optimizing local & API LLM models to write code"
+            ]
+          }
+        ]
+      },
+      {
         "title": "Tracking",
         "items": [
           "SynthEyes",
@@ -72,7 +95,7 @@
         ]
       },
       {
-        "title": "Compositing / Editing / Roto",
+        "title": "Compositing | Editing | Roto",
         "items": [
           "Shake, After Effects",
           "Premiere, Final Cut Pro",
@@ -80,22 +103,7 @@
         ]
       },
       {
-        "title": "AI",
-        "items": [
-          {
-            "label": "Stable Diffusion",
-            "subitems": [
-              "ComfyUI",
-              "Automatic1111"
-            ]
-          },
-          {
-            "label": "Topaz"
-          }
-        ]
-      },
-      {
-        "title": "Programming / Languages",
+        "title": "Programming Languages",
         "items": [
           "Python",
           "Linux shell scripting (bash)",
@@ -105,18 +113,18 @@
         ]
       },
       {
-        "title": "Computer Hardware / Operating Systems",
+        "title": "Computer Hardware | Operating Systems",
         "items": [
-          "Linux / MacOS / Windows",
+          "Linux | MacOS | Windows",
           "System administration",
-          "Building / networking / troubleshooting"
+          "Building | networking | troubleshooting"
         ]
       },
       {
-        "title": "Print / Web Design",
+        "title": "Print | Web Design",
         "items": [
-          "Photoshop, Illustrator, InDesign",
-          "WordPress, Dreamweaver"
+          "Photoshop | Illustrator | InDesign",
+          "WordPress | Dreamweaver"
         ]
       }
     ]

@@ -18,6 +18,15 @@ interface WorkContent {
   manualReview: string[];
 }
 
+function getSectionId(title: string): string {
+  return title
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9\s-]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-");
+}
+
 const GROUP_LABEL_KEYWORDS = [
   "spots",
   "spot",
@@ -201,6 +210,10 @@ function WorkEntryList({
 
 export default async function WorkPage() {
   const content = (await getWorkContent()) as WorkContent;
+  const sectionLinks = content.categories.map((category) => ({
+    title: category.title,
+    id: getSectionId(category.title),
+  }));
 
   return (
     <div className="min-h-screen pt-20">
@@ -224,6 +237,29 @@ export default async function WorkPage() {
       {/* Projects List */}
       <section className="py-20 px-6">
         <div className="max-w-4xl mx-auto space-y-8">
+          <AnimatedSection
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.05 }}
+          >
+            <nav
+              aria-label="Work section navigation"
+              className="p-6 bg-neutral-900/30 border border-white/5 rounded-lg"
+            >
+              <div className="flex flex-wrap justify-center gap-x-6 gap-y-3">
+                {sectionLinks.map((link) => (
+                  <Link
+                    key={link.id}
+                    href={`#${link.id}`}
+                    className="text-lg font-display font-semibold text-white hover:text-gray-300 transition-colors"
+                  >
+                    {link.title}
+                  </Link>
+                ))}
+              </div>
+            </nav>
+          </AnimatedSection>
+
           {content.categories.map((category, index) => (
             <AnimatedSection
               key={category.title}
@@ -232,7 +268,10 @@ export default async function WorkPage() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="group"
             >
-              <div className="p-6 bg-neutral-900/30 border border-white/5 rounded-lg hover:border-white/20 transition-all hover:bg-neutral-900/50">
+              <div
+                id={getSectionId(category.title)}
+                className="p-6 bg-neutral-900/30 border border-white/5 rounded-lg hover:border-white/20 transition-all hover:bg-neutral-900/50 scroll-mt-28"
+              >
                 <h2 className="text-2xl font-semibold text-white mb-4">{category.title}</h2>
                 <WorkEntryList entries={category.entries} parentLabel={category.title} />
               </div>
