@@ -7,10 +7,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
+colors: {
         background: "#0a0a0a",
         foreground: "#ededed",
-        accent: "#8b5cf6",
+        accent: "#e59900",
+        accentHover: "#ffaa00",
       },
       fontFamily: {
         sans: ['var(--font-geist-sans)'],

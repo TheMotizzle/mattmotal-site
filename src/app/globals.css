@@ -5,13 +5,28 @@
 :root {
   --background: #0a0a0a;
   --foreground: #ededed;
-  --accent: #3b82f6;
+  --accent: #e59900;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family: var(--font-body, Geist, system-ui, sans-serif);
+}
+
+a:not(nav a) {
+  color: #e59900;
+  text-decoration: none;
+  transition: color 150ms ease;
+}
+
+a:not(nav a):hover,
+a:not(nav a):focus-visible {
+  color: #ffaa00;
+}
+
+a:not(nav a):visited {
+  color: #e59900;
 }
 
 h1,

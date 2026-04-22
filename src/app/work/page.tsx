@@ -159,7 +159,7 @@ function WorkEntryList({
                       href={entry.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="hover:text-white transition-colors"
+                      className="text-accent hover:text-accentHover transition-colors"
                     >
                       {entry.label}
                     </Link>
@@ -179,7 +179,7 @@ function WorkEntryList({
                             href={detail.url}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="hover:text-white transition-colors"
+                            className="text-accent hover:text-accentHover transition-colors"
                           >
                             {detail.label}
                           </Link>
@@ -251,7 +251,7 @@ export default async function WorkPage() {
                   <Link
                     key={link.id}
                     href={`#${link.id}`}
-                    className="text-lg font-display font-semibold text-white hover:text-gray-300 transition-colors"
+                    className="text-lg font-display font-semibold text-accent hover:text-accentHover transition-colors"
                   >
                     {link.title}
                   </Link>

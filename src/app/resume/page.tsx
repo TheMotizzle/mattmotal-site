@@ -80,7 +80,7 @@ export default async function ResumePage() {
                         href={item.companyUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="hover:text-gray-300 transition-colors"
+                        className="hover:text-[#ffaa00] transition-colors"
                       >
                         {item.company}
                       </a>
